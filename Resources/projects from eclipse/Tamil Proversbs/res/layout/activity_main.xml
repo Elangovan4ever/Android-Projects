@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProverbActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <fragment
+        android:name="elango.thaaru.tamilproverbs.ProverbActivity$PlaceholderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/lytAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <fragment
+            android:id="@+id/adFragment"
+            android:name="elango.thaaru.tamilproverbs.ProverbActivity$AdFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blue_widget_bg" />
+    </LinearLayout>
+
+</LinearLayout>

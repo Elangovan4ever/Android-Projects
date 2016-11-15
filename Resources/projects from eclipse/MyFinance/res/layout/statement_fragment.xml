@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytStatementFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <elango.thaaru.MyFinance.ElaSummaryBar
+        android:id="@+id/accountSummaryBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/statement_summary_bg" />
+
+    <ListView
+        android:id="@+id/lvStatement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/accountSummaryBar"
+        android:layout_marginTop="2dp"
+        android:divider="#66555577"
+        android:dividerHeight="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />   
+
+    <TextView
+        android:id="@+id/noDataView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FF1122"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/info_no_transactions_found" />
+    
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    style="@style/application_background">
+
+    <TableLayout
+        android:id="@+id/mainTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" 
+        android:padding="20dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <Button
+                android:id="@+id/btnAddTransaction"
+                style="@style/mainoptions_button_style"
+                android:drawableTop="@drawable/add_transaction"
+                android:onClick="onClickNewTransaction"
+                android:text="@string/add_transaction"/>
+
+            <Button
+                android:id="@+id/btnEditTransactions"
+                style="@style/mainoptions_button_style"
+                android:drawableTop="@drawable/edit_transaction"
+                android:onClick="onClickViewEditTransaction" 
+                android:text="@string/edit_transaction"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <Button
+                android:id="@+id/btnStatistics"
+                style="@style/mainoptions_button_style"
+                android:drawableTop="@drawable/statistics"
+                android:onClick="onClickStatistics"
+                android:text="@string/statistics" />
+
+            <Button
+                android:id="@+id/btnBudgetLimits"
+                style="@style/mainoptions_button_style"
+                android:drawableTop="@drawable/budget_limit" 
+                android:text="@string/budget_limit"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <Button
+                android:id="@+id/btnFutureBudget"
+                style="@style/mainoptions_button_style"
+                android:drawableTop="@drawable/future_budget" 
+                android:text="@string/future_transactions"/>
+
+            <Button
+                android:id="@+id/btnSettings"
+                style="@style/mainoptions_button_style"
+                android:drawableTop="@drawable/settings"
+                android:onClick="onClickShowSettings" 
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/settings"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

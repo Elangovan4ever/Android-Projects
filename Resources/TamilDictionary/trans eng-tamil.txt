@@ -1,0 +1,535 @@
+Translations of advert
+குறிப்பிடு
+specify, allude, individualize, betoken, advert, bode
+சுட்டிச்சொல்
+advert, suggest
+
+Translations of advertise
+விளம்பரப்படுத்து
+advertise
+பிரசுரம்செய்
+advertise
+verb
+அறிவி
+announce, report, advertise
+ 
+Translations of advertiser
+விளம்பரதாரர்
+advertisers, advertiser
+விளம்பரம் செய்பவர்
+advertiser
+ 
+Translations of advice
+அறிவுரை
+advice, lecture, rede
+புத்திமதி
+advice, counsel
+noun
+ஆலோசனை
+advice
+ 
+Translations of advise
+புத்திசொல்
+advise, exhort
+அறிவுறுத்து
+instil, reiterate, advise
+அறிவி
+proclaim, advise, annunciate, apprise
+verb
+ஆலோசனை கூறு
+advise
+ 
+Translations of advisory
+புத்தி(அ)ஆலோசனை கூறும்
+advisory
+புத்தி கூறும் வகையில்
+advisory 
+ 
+Translations of advocacy
+துணை வலிமை கொடு
+advocacy
+
+Translations of advocate
+வழக்கறிஞர்
+attorney, advocate, pleader
+வக்கீல்
+advocate, pleader
+பரிந்துபேசுபவர்
+advocate
+verb
+வாதாடு
+advocate
+ 
+Translations of adze
+வாய்ச்சி
+adze
+ 
+Translations of aegis
+கேடயம்
+aegis
+பாதுகாப்பு
+safety, conservation, aegis, custody, keeping, shield
+ஆதரவு
+aegis, approbation, auspice, shading
+
+Translations of aerate
+காற்று படும்படி விடு
+aerate
+
+Translations of aerial
+adjective
+விண்ணிலிருந்து
+aerial
+
+Translations of aerobatics
+விமான வித்தை
+aerobatics
+
+Translations of aerodrome
+ஆகாய விமான நிலையம்
+aerodrome
+
+Translations of aerodynamics
+காற்றியக்கம் சார்ந்த அறிவியல் ஆய்வு
+aerodynamics
+
+Translations of aeronaut
+வானோடி
+aeronaut
+
+Translations of aeronautics
+விண் பயணம் பற்றிய அறிவியல்
+aeronautics
+
+Translations of aerostat
+காற்று மிதவை
+aerostat
+
+Translations of aesthetic
+அழகுணர்ச்சி சார்ந்த
+aesthetic, esthetic
+மனக் கிளர்ச்சி சார்ந்த
+aesthetic
+
+Translations of aesthetics
+முருகியல்
+aesthetics
+
+Translations of afar
+தூரத்தில்
+afar
+தூரமாய்
+afar, away
+
+Translations of affable
+விநயமான
+affable
+சுலபமாய் நெருங்க இடங்கொடுக்கும்
+affable
+
+Translations of affair
+காரியம்
+avocation, affair, transaction
+சங்கதி
+topic, affair
+noun
+அலுவல்
+office, affair
+
+Translations of affect
+இருப்பது போலக் காட்டு
+affect
+தாக்கு
+affect, assail, smith, clash
+verb
+செயல் விளைவு
+affect
+
+Translations of affectation
+பாசாங்கு
+pretense, affectation, dissimulation, hypocracy, pretence, pretext
+இயற்கையோடு ஒவ்வா நடத்தை
+affectation
+
+Translations of affected
+பாதிக்கப்பட்ட
+affected, stricken
+செயற்கையாக ஏற்றுக் கொள்ளப்பட்ட
+affected
+adjective
+பாதிக்கபட்ட
+affected
+
+Translations of affection
+அன்பு
+love, affection, devotion
+கருணை
+clemency, charity, affection
+noun
+நேசம்
+love, affection
+
+Translations of affectionate
+அன்புள்ள
+affectionate, humane
+adjective
+நேசமுள்ள
+affectionate
+
+Translations of afferent
+புலன்களிலிருந்து உட்செல்லும் நரம்பு
+afferent
+
+Translations of affidavit
+எழுத்தில் சத்திய வாக்கு மூலம்
+affidavit
+உறுதிச் சான்று
+affidavit
+noun
+ஆணை பத்திரம்
+affidavit
+
+Translations of affiliate
+இணைத்துக்கொள்
+affiliate
+இணைந்துக்கொள்
+affiliate
+
+Translations of affiliation
+இணைப்பு
+connection, merger, additament, affiliation, affix, annexe
+தேர்தல்
+affiliation
+
+Translations of affinity
+உறவு
+relation, affinity, nexus, tier
+கவர்ச்சி
+affinity
+
+Translations of affirm
+உறுதிப்படுத்து
+confirm, substantiate, affirm, stabilize, corroborate, affirmation
+verb
+வலியறுத்து
+affirm, endorse
+
+Translations of affirmative
+adjective
+உடன்பாடான
+affirmative
+நேர்முக உறுதியுரை
+affirmative
+
+Translations of affix
+இணை
+connect, affix, analogy, annex, coalesce, consolidate
+இணைப்பு
+connection, merger, additament, affiliation, affix, annexe
+இணைக்கப்பட்ட பொருள்
+affix
+verb
+படிய வை
+affix
+
+Translations of afflict
+வருத்து
+afflict, annoy
+தொந்தரவுசெய்
+afflict, ail
+verb
+அல்லற் படுத்து
+afflict
+
+Translations of affliction
+நோவு
+affliction, pain
+பெரும் மன வேதனை
+affliction
+noun
+இன்னல்
+hardship, affliction
+
+Translations of affluence
+noun
+செழுமை
+affluence
+பணம் செறிந்த நிலை
+affluence
+சம்பத்து
+affluence
+
+Translations of affluent
+வளமான
+prosperous, affluent, opulent, riches
+செல்வம் மிக்க
+affluent
+adjective
+செழுமையான
+affluent
+
+Translations of afford
+கொடு
+administer, afford, award, confer, grant, hold out
+உண்டாக்கு
+afford, bring about, bring forth, constitute, develop, engender
+verb
+வாய்ப்பளி
+afford
+
+Translations of afforest
+காடு வளர்
+afforest
+
+Translations of affray
+சச்சரவு
+strife, affray, controversy, dust up, shindy, threap
+
+Translations of affright
+(பழம் வழக்கில்) அச்சுறுத்தல்
+affright
+
+Translations of affront
+அவமரியாதை
+disrespect, affront, insult, discourtesy, dishonour
+அவமதி
+affront
+இகழ்
+disdain, affront, despise, laugh at
+
+Translations of afield
+களத்தில்
+afield
+ஓரிடத்திற்கப்பால்
+afield
+
+Translations of afire
+நெருப்பில்
+afire
+
+Translations of afloat
+கப்பலில்
+afloat
+மிதக்கிற
+afloat
+adverb
+மிதக்கும் நிலையில்
+afloat
+
+Translations of afoot
+கால்நடையாய்
+afoot
+நடந்துகொண்டு
+afoot
+
+Translations of aforesaid
+முன்பே சொல்லப்பட்ட
+aforesaid
+
+Translations of afoul
+ஒன்றில் இடக்கு முடக்காகச் சிக்கி
+afoul
+
+Translations of afraid
+adjective
+அச்சமுற்ற
+afraid
+பயந்த
+afraid, pavid, chicken-hearted
+திகிலடைந்த
+afraid
+
+Translations of afresh
+மறுபடியும்
+afresh
+புது வலிமையோடு
+afresh
+மீண்டும்
+afresh
+
+Translations of aft
+அருகே
+nigh, aft
+பின்னோக்கி
+aft, backward
+
+Translations of after
+பிறகு
+after, afterwards, eftsoon
+பின்
+after
+adverb
+பின்னர்
+after
+preposition
+பின்னால்
+behind, after
+
+Translations of after all
+மொத்தத்தில் எப்படியிருந்தாலும்
+after all
+
+Translations of after thought
+பின் யோசனை
+after thought
+
+Translations of aftermath
+பின்விளைவு
+aftermath, after effect
+
+Translations of afternoon
+noun
+பிற்பகல்
+afternoon
+பிற்பகல் (பிப)
+afternoon
+
+Translations of afterthought
+(முரண்பாடான)பின்(நினைவு) எண்ணம்
+afterthought
+
+Translations of afterwards
+பின்னர்
+afterwards, infra
+பிறகு
+after, afterwards, eftsoon
+adverb
+பிற்பாடு
+later, afterwards
+
+Translations of again
+adverb
+மீண்டும்
+again
+மறுபடி
+again, withdraw
+மேலும்
+also, and, again, eke, moreover
+
+Translations of against
+எதிராக
+against, viceversa, with
+preposition
+மாறாக
+against, versus
+
+Translations of agape
+(ஆச்சரியத்தாலோ (அ) வியப்பாலோ) வாய் திறந்த நிலையில்
+agape
+(ஆச்சரியத்தாலோ (அ) வியப்பாலோ) வாய் திறந்த நிலையில் இருக்கிற
+agape
+
+Translations of agate
+இரத்தினக் கல் வகை
+agate
+
+Translations of age
+noun
+வயது
+age
+காலம்
+age, span, tide
+verb
+முதுமையறு
+age
+
+Translations of aged
+வயது முதிர்ந்த
+aged
+
+Translations of agency
+மக்களுக்குத் தொண்டு புரியும் தொழில் நிறுவனம்
+agency
+noun
+செயலாண்மை
+agency
+
+Translations of agenda
+noun
+நிகழ்ச்சி நிரல்
+agenda
+
+Translations of agent
+noun
+முகவர்
+agent
+காரியஸ்த்தன்
+agent
+கர்த்தா
+agent
+
+Translations of agglomerate
+ஒன்றாகத் திரட்டு
+agglomerate
+
+Translations of agglomeration
+பலவற்றின் ஒழுங்கற்ற கூட்டு
+agglomeration
+
+Translations of aggravate
+சீர்கெடச்செய்
+aggravate
+தொந்தரவு கொடு
+aggravate
+verb
+மேலும் கேடாக்கு
+aggravate
+
+Translations of aggravation
+noun
+தீங்கு பெருக்குதல்
+aggravation
+
+Translations of aggregate
+மொத்தம்
+aggregate, amount, quantum, total
+
+Translations of aggress
+தலையிடு
+butt in, aggress, poker
+முதல் அடி கொடு (அ) வலுச்சண்டைக்குப் போ
+aggress
+
+Translations of aggression
+காயமுண்டாக்கும் முதல் அடி
+aggression
+வலுச் சண்டைக்குப் போதல்
+aggression
+noun
+வலிய தீங்கு செய்தல்
+aggression
+
+Translations of aggressor
+முதலில் ஆக்கிரமிப்பவன்
+aggressor
+போர் தொடுப்போன்
+aggressor
+noun
+வம்ப சண்டைக்காரி
+aggressor
+வம்ப சண்டைக்காரன்
+aggressor
+
+Translations of aggrieved
+தீங்கிழைக்கப்பட்ட
+aggrieved
+இடருற்ற
+aggrieved
+
+Translations of aghast
+பயத்தால் திகைத்த
+aghast
+
+Translations of agile
+சுறுசுறுப்பான
+agile, brisk, smart, perky, crisp, nimble
+
+Translations of agility
+சுறுசுறுப்பு
+agility, vivacity, alacrity, industry, vigour
+துரிதம்
+agility, swiftness
+
+
+
+

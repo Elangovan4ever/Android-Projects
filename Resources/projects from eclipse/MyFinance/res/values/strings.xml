@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- width/heights, to use programatically. should be int type -->
+    <string name="width_stmt_summary_caption">100</string>
+    <string name="width_stmt_summary_amount">90</string>
+    <string name="width_top_menu_categories">100</string>
+    <string name="width_top_menu_period_types">90</string>
+    <string name="width_top_menu_transactions">100</string>
+
+    <!-- Localized Strings -->
+    <string name="in">in</string>
+    <string name="and">and</string>
+    <string name="app_name">My Finance</string>
+    <string name="settings">Settings</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="manage_sub_categories">Manage Sub Categories</string>
+    <string name="statistics">Statistics</string>
+    <string name="budget_limit">Budget Limit</string>
+    <string name="future_transactions">Future Transactions</string>
+    <string name="backup_restore">Backup/Restore</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="deposit">Deposit</string>
+    <string name="borrow">Borrow</string>
+    <string name="return_txt">Return</string>
+    <string name="lend">Lend</string>
+    <string name="custom">Custom</string>
+    <string name="all">All</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="date_time">DateTime</string>
+    <string name="confirm">Confirm</string>
+    <string name="clear">Clear</string>
+    <string name="more">More</string>
+    <string name="place">Place</string>
+    <string name="persons">Persons</string>
+    <string name="comment">Comment</string>
+    <string name="success">Success</string>
+    <string name="recent">Recent</string>
+    <string name="show">Showing</string>
+    <string name="search">Search</string>
+    <string name="search_again">Search Again</string>
+    <string name="period">Period</string>
+    <string name="range">Range</string>
+    <string name="cycle">Cycle</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="thisweek">This Week</string>
+    <string name="lastweek">Last Week</string>
+    <string name="thismonth">This Month</string>
+    <string name="lastmonth">Last Month</string>
+    <string name="thisyear">This Year</string>
+    <string name="lastyear">Last Year</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="any">Any</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="daily">Daily</string>
+    <string name="months">Months</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="show_transactions">Show Transactions</string>
+    <string name="income_sub_categories">Incomes</string>
+    <string name="expence_sub_categories">Expenses</string>
+    <string name="deposit_sub_categories">Banks</string>
+    <string name="borrow_sub_categories">Lender</string>
+    <string name="lend_sub_categories">Borrower</string>    
+    <string name="add_sub_category">Add Sub Category</string>
+    <string name="delete_sub_category">Delete Sub Category</string>
+    <string name="edit_sub_category">Edit Sub Category</string>
+    <string name="sub_category">Sub Category</string>    
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Description</string>
+    <string name="old_value">Old Value</string>
+    <string name="new_value">New Value</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_future_budget">FutureBudget</string>
+    <string name="show_details">Show details</string>
+
+    <!-- Error Messages - Localized Strings -->
+    <string name="err_enter_amount">Please enter amount</string>
+    <string name="err_date_future_not_allowed">The date and time cannot be greater than current date and time</string>
+    <string name="err_date_past_not_allowed">The date and time cannot be less than current date and time</string>
+
+    <!-- Information Messages - Localized Strings -->
+    <string name="info_no_transactions_on_period">No transaction has been done in the selected period</string>
+    <string name="info_no_transactions_found">No transaction found</string>
+
+    
+    <!-- Conformation Messages - Localized Strings -->
+    <string name="are_you_sure_delete">Are you sure you want to delete</string>
+    
+    
+   
+
+</resources>

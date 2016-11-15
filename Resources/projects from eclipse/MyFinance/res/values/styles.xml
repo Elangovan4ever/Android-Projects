@@ -1,0 +1,173 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomWindowTitleBackground" />
+
+    <style name="CustomTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">30dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="tabItemAppearance">@style/tabItemStyle</item>
+        <item name="summaryItemAppearance">@style/summaryItemStyle</item>
+        <item name="checkBoxItemAppearance">@style/checkBoxItemStyle</item>
+    </style>
+
+    <style name="tabItemStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:background">@drawable/catogory_tab_item_bg</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="summaryItemStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="checkBoxItemStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">15sp</item>        
+    </style>
+
+    <style name="spinner_divider_style">
+        <item name="android:dividerHeight">-1dip</item>
+    </style>
+
+    <style name="application_background">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="mainoptions_button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#771177</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/main_options_btn_bg</item>
+    </style>
+
+    <style name="mainoptions_button_style_pressed">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#771177</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/main_options_btn_bg</item>
+    </style>
+
+    <style name="selector_text_appearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="label_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="label_style_1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="label_style_2">
+        <item name="android:textColor">#222222</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="label_style_3">
+        <item name="android:textColor">#222222</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="text_edit_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="period_type_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@drawable/period_selection_btn_bg</item>
+    </style>
+
+    <style name="button_style_1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/button_bg_1</item>
+    </style>
+
+    <style name="button_style_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/button_bg_2</item>
+    </style>
+
+    <style name="button_style_3">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@drawable/button_bg_2</item>
+    </style>
+
+    <style name="button_style_4">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:background">@drawable/button_bg_2</item>
+    </style>
+
+    <style name="AnimationShowQuickActionFromBottom">
+        <item name="@android:windowEnterAnimation">@anim/quick_action_from_bottom</item>
+    </style>
+
+    <style name="AnimationShowQuickActionFromTop">
+        <item name="@android:windowEnterAnimation">@anim/quick_action_from_top</item>
+    </style>
+
+    <style name="AnimationShowViewGrow">
+        <item name="@android:windowEnterAnimation">@anim/quick_action_from_top</item>
+    </style>
+
+</resources>

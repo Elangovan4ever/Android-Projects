@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MaterialDesignTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_header">Drawer Header</string>
+    <string name="drawer_item1">drawer item1</string>
+    <string name="drawer_item2">drawer item2</string>
+    <string name="drawer_item3">drawer item3</string>
+    <string name="drawer_sub_group">drawer sub group</string>
+    <string name="drawer_sub_item1">drawer sub item1</string>
+    <string name="drawer_sub_item2">drawer sub item2</string>
+</resources>

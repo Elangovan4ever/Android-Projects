@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytSearchContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/searchScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right" >
+
+        <LinearLayout
+            android:id="@+id/lytSearchControls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/tblLytSearchFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:shrinkColumns="1"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvSubCategory"
+                        style="@style/label_style"
+                        android:text="@string/sub_category" />
+
+                    <Spinner
+                        android:id="@+id/spSubCategories"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:popupBackground="#00000000" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/show"
+                        style="@style/label_style"
+                        android:text="@string/period" />
+
+                    <RadioGroup
+                        android:id="@+id/rgPeriodOptions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radioPeriodCycle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/cycle"
+                            android:textColor="#000000" />
+
+                        <RadioButton
+                            android:id="@+id/radioDateRange"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/range"
+                            android:textColor="#000000" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/filler1"
+                        style="@style/label_style" />
+
+                    <LinearLayout
+                        android:id="@+id/lytCycleOptions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Spinner
+                            android:id="@+id/spCycleOptions"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:popupBackground="#00000000" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" >
+
+                    <TableLayout
+                        android:id="@+id/lytDateRange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:padding="5dp"
+                        android:shrinkColumns="*"
+                        android:stretchColumns="*" >
+
+                        <TableRow
+                            android:id="@+id/tableRow3_1_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/tvFromDate"
+                                style="@style/label_style"
+                                android:text="@string/from" />
+
+                            <Button
+                                android:id="@+id/btnFromDatePicker"
+                                style="@style/button_style_1" />
+
+                            <Button
+                                android:id="@+id/btnFromTimePicker"
+                                style="@style/button_style_1" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow3_1_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/tvToDate"
+                                style="@style/label_style"
+                                android:text="@string/to" />
+
+                            <Button
+                                android:id="@+id/btnToDatePicker"
+                                style="@style/button_style_1" />
+
+                            <Button
+                                android:id="@+id/btnToTimePicker"
+                                style="@style/button_style_1" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvComment"
+                        style="@style/label_style"
+                        android:text="@string/comment" />
+
+                    <EditText
+                        android:id="@+id/etComment"
+                        style="@style/text_edit_style"
+                        android:maxLength="@integer/comment_max_length" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/lytActionsBlock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    style="@style/button_style_2"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/confirm" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    style="@style/button_style_2"
+                    android:text="@string/clear" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+       <attr name="tabItemAppearance" format="reference" />
+       <attr name="summaryItemAppearance" format="reference" />
+       <attr name="checkBoxItemAppearance" format="reference" />
+</resources>

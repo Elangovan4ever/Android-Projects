@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right" >
+
+    <LinearLayout
+        android:id="@+id/lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/mainTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:shrinkColumns="1"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tvAmount"
+                    style="@style/label_style"
+                    android:text="@string/amount" />
+
+                <EditText
+                    android:id="@+id/etAmount"
+                    style="@style/text_edit_style"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tvSubCategories"
+                    style="@style/label_style"
+                    android:text="@string/category" />
+
+                <Spinner
+                    android:id="@+id/spSubCategories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:popupBackground="#00000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tvActionDate"
+                    style="@style/label_style"
+                    android:text="@string/date_time" />
+
+                <LinearLayout
+                    android:id="@+id/lytActionLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btnDatePicker"
+                        style="@style/button_style_1"
+                        android:layout_weight="2.0" />
+
+                    <Button
+                        android:id="@+id/btnTimePicker"
+                        style="@style/button_style_1" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tvComment"
+                    style="@style/label_style"
+                    android:layout_weight="1.0"
+                    android:text="@string/comment" />
+
+                <EditText
+                    android:id="@+id/etComment"
+                    style="@style/text_edit_style"
+                    android:layout_weight="1.0"
+                    android:maxLength="@integer/comment_max_length" />
+            </TableRow>
+            
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/lytActionsBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnConfirm"
+                style="@style/button_style_2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/confirm" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/button_style_2"
+                android:text="@string/clear" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

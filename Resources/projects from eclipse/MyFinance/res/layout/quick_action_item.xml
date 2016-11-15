@@ -1,0 +1,27 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical|center_horizontal"	
+    android:clickable="true"
+	android:background="@drawable/quick_action_btn_bg">
+
+	<ImageView
+		android:id="@+id/quickActionImage" 
+		android:layout_width="17dp" 
+		android:layout_height="25dp"
+		android:gravity="center_vertical|center_horizontal"/>	
+
+	<TextView 
+		android:id="@+id/quickActionCaption"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical"
+		android:textSize="11sp"
+		android:textColor="#ff3b3236"
+		android:textStyle="bold"
+		android:layout_marginTop="-4dp"
+		android:layout_marginBottom="2dp"/>
+		
+</LinearLayout>

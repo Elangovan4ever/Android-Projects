@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">aTamilProverbs</string>
+    <string name="TamilProverbs">TamilProverbs</string>
+    <string name="action_search">Search</string>
+    <string name="about_app">About TamilProverbs</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="search_hint">Type here to search</string>
+    <string name="info_no_data_found">Sorry, We don\u0027t have this prover.</string>
+    <string name="error_no_data_found">Sorry, Something went wrong. Please check out Contact Us menu</string>
+    <string name="websearch">Search in Google</string>
+    <string name="interval">Interval Time</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="seconds">Seconds</string>
+    <string name="minutes">Minutes</string>
+    <string name="hours">Hours</string>
+    <string name="period_type">Period Type</string>
+    <string name="result_str_1">You have set</string>
+    <string name="result_str_2">as interval</string>
+    <string name="result_str_3">You have set 00 Hours 00 minutes 00 seconds as interval</string>
+    <string name="maxTimeAllowed">The maximum interval time allowed is 24 hours. To improve the battery power backup, the longer interval is recommended.</string>
+    <string name="pleaseFillTime">Please enter Interval time</string>
+
+    <string-array name="period_types">
+        <item>@string/seconds</item>
+        <item>@string/minutes</item>
+        <item>@string/hours</item>
+    </string-array>
+
+    <string name="increment">Increment</string>
+    <string name="decrement">Decrement</string>
+    <string name="default_interval">1</string>
+    <string name="loading">Loading, Please wait&#8230;</string>
+    <string name="loading_first_time">Setting up the application for the first time. This will take few minutes. Please don\'t close this application. Thank you for your Patience!!!</string>
+    <string name="contact_us_content_1">For complaints, suggestions or feedback please email us at: </string>
+    <string name="contact_us_content_2">tamilproverbscare@gmail.com</string>
+    <string name="contact_us_content_3">Your complaints and suggestions will be addressed within hours. Cheers!!!</string>
+    <string name="about_app_content_1">TAMIL PROVERBS&#0169; - FREE</string>
+    <string name="about_app_content_2">version 1.0</string>
+    <string name="about_app_content_3">This is a free dictionary application to help you to learn english words and its meanings in a better and easy way.</string>
+    <string name="about_app_content_how_wid">How to use dictionary widget:</string>
+    <string name="about_app_content_how_wid_1">&#9670; Once you installed this application, go to add widget settings and find the \'TamilProverbs\' widget from the widgets list and add it to the homescreen.\n&#9670; For the first time it will ask you to set the interval. Interval is the time frequency that how often the words will be changed on the screen.\n&#9670; If you want to change the interval you have to add a new widget. The interval time set is one time configuration for each widget.\n&#9670; The interval time can be configured as seconds,minutes and hours.\n&#9670; Once you configured the interval time in the configuration screen then clicking \'Ok\' will add the widget to your homescreen wherever you wish. Clicking \'Cancel\' will not add the widget.</string>
+    <string name="about_app_content_how_app">How to use dictionary application:</string>
+    <string name="about_app_content_how_app_1">&#9670; Launch \'TamilProverbs\' application from the applications menu.\n&#9670; In TAMIL PROVERBS application, you can scroll down and scroll up to see all the words.\n&#9670; You can dynamically search as you type by clicking the search icon in the action bar.\n&#9670; You can quickly jump to each alphabetical sections by clicking/dragging through the side selector.</string>
+    <string name="about_app_content_pro">TAMIL PROVERBS - PRO</string>
+    <string name="about_app_content_pro_1">Pro version features:</string>
+    <string name="about_app_content_pro_2">	&#10003; Ad-Free &#8658; No disturbing advertisements.\n&#10003; Multi Language support - Including English, Tamil, Hindi, Kannada, Telugu.\n&#10003; Many more options - settings to change the theme, select the number of words, etc.\n&#10003; Instant support for any issues/suggestions.\n&#10003; Redirect to any words clicked on the list of words and its meanings.\n&#10003; Ability to add your own words and its Meanings.\n&#10003; Navigate to previous or next word from the widget itself.</string>
+    <string name="rate_app">Rate TAMIL PROVERBS</string>
+    <string name="rate_app_content">Thanks for using TAMIL PROVERBS.\n\nIf you enjoy using TAMIL PROVERBS, Please take a moment to rate it. It will take only a minute.\n\nThanks for your support!</string>
+    <string name="rate_app_ratenow">Rate Now</string>
+    <string name="rate_app_remind">Remind me later</string>
+    <string name="rate_app_never">Never Ask</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5746581363497189/7559677567</string>
+    
+    <string name="accept">Accept</string>
+    <string name="eula_string">COPYRIGHTS:
+ 
+\nCopyright 2014 TamilProverbs. All Rights Reserved.
+ 
+\n\nThis software may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any
+language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable
+format, or by any other form or means without prior consent, in writing, from TamilProverbs.
+ 
+\n\nYou are granted a limited license to use this software. The software may be used or copied only in accordance
+with the terms of that license, which is described in the following paragraphs.
+ 
+
+\n\nLICENSE:
+\n\n\"THE SOFTWARE\" shall be taken to mean the software contained in this app and any subsequent versions
+or upgrades received as a result of having purchased this app. \"BUYER\" shall be taken as the original
+purchaser of the software.
+ 
+\n\nBuyer has the non-exclusive right to the use of software only on a single device. Buyer may not electronically
+transfer the program from one device to another over any type of network. Buyer may not distribute copies
+of the software or the accompanying documentation to others either for a fee or without charge. Buyer may not modify
+or translate the program or documentation. User may not disassemble the program or allow it to be disassembled
+into its constituent source code. Buyer\'s use of the software indicates his/her acceptance of these terms
+and conditions. If buyer does not agree to these conditions, return the distribution media, documentation, and
+associated materials to the vendor from whom the software was purchased, and/or uninstall the software from the device,
+and erase the software from any and all storage devices upon which it may have been installed.
+ 
+\n\nThis license agreement shall be governed by the laws of The United States of America, Massachusetts and
+shall inure to the benefit of TamilProverbs or its assigns.
+ 
+\n\nDISCLAIMER / LIMITATION OF LIABILITY:
+\n\nBuyer acknowledges that the software may not be free from defects and may not satisfy all of buyer\'s
+needs. TamilProverbs warrants all media on which the software is distributed to be free from defects
+in normal use. The software and any accompanying written materials are licensed \"AS IS\". Buyer\'s exclusive
+remedy during the warranty period (if any) shall consist of replacement of distribution media if determined to be
+faulty. In no event will TamilProverbs be liable for direct, indirect, incidental or consequential damage or
+damages resulting from loss of use, or loss of anticipated profits resulting from any defect in the software,
+even if it has been advised of the possibility of such damage. Some laws do not allow exclusion or limitation
+of implied warranties or liabilities for incidental or consequential damages, so the above limitations or
+exclusion may not apply.
+ 
+\n\nSPECIFIC RESTRICTIONS:
+\n\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this software may not be rented, lent or leased.
+\n\nThe software and accompanying documentation may not be provided by a \"Backup Service\" or any other vendor
+which does not provide an original package as composed of TamilProverbs, including but not limited to all original
+distribution media, documentation, registration cards, and insertions.</string>
+
+</resources>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activitybg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lytVocabularylist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/vocabularylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/holo_blue_light"
+            android:dividerHeight="1dp" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/tvSelectedLetter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/blink_letter"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <elango.thaaru.easydictionary.util.ElaSideSelector
+            android:id="@+id/side_selector"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:shadowColor="#001122"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/noDataView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/noDataText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/info_no_data_found"
+            android:textColor="#FF1122"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnWebSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/websearch" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytLoadingData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvFirstTimeLoading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/loading_first_time"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imgLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/loading"
+            android:src="@drawable/rotate_loading" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvErrNoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/error_no_data_found"
+        android:textColor="#FF1122"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white">
+    <item
+        android:id="@+id/sweep"
+        android:icon="@drawable/search_icon"
+        android:title="Search" 
+        android:onClick="ShowSearch" 
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/About_app_menu"
+        android:title="About MyFinance" 
+        android:onClick="ShowAboutApp" />
+    <item
+        android:id="@+id/About_us_menu"
+        android:title="About Us" 
+        android:onClick="ShowAboutUs" />
+</menu>

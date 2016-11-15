@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="elango.thaaru.MyFinance"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/application_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="elango.thaaru.MyFinance.MainOptionsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.CreateTransaction"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.EditTransaction"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.ViewEditTransaction"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.Search"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.Statistics"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.Statement"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.Settings"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <provider
+            android:name="elango.thaaru.MyFinance.ElaContentProvider"
+            android:authorities="elango.thaaru.MyFinance.ElaContentProvider"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="elango.thaaru.MyFinance.FutureTransactions"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="elango.thaaru.MyFinance.ManageSubCategories"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+    </application>
+
+</manifest>
